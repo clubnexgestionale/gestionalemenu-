@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Gestionale menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/admin.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">M</span>
+      <div>
+        <div class="brand-name" id="venueTitle">Gestionale menu</div>
+        <div class="brand-status" id="pubStatus">Caricamento…</div>
+      </div>
+    </div>
+    <div class="top-actions">
+      <a class="btn ghost" id="previewBtn" href="../?anteprima=1" target="_blank" rel="noopener">Anteprima</a>
+      <button class="btn primary" id="publishBtn" disabled>Pubblica</button>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="menu" aria-selected="true">Menu</button>
+    <button role="tab" data-tab="locale">Locale</button>
+    <button role="tab" data-tab="orari">Orari</button>
+    <button role="tab" data-tab="qr">QR &amp; NFC</button>
+    <button role="tab" data-tab="impostazioni">Impostazioni</button>
+  </nav>
+
+  <main class="page" id="view"></main>
+
+  <div id="printArea" aria-hidden="true"></div>
+  <div class="toast" id="toast" role="status"></div>
+  <dialog id="dlg"></dialog>
+
+  <script src="../assets/vendor/qrcode.js"></script>
+  <script src="../assets/common.js"></script>
+  <script src="../assets/admin.js"></script>
+</body>
+</html>

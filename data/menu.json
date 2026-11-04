@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-04T18:00:00.000Z",
+  "venue": {
+    "name": "Osteria del Borgo",
+    "tagline": "Cucina di stagione e bar dal 1987",
+    "logo": "",
+    "address": "Via Roma 12, Milano",
+    "phone": "+39 02 1234567",
+    "instagram": "osteriadelborgo",
+    "website": "",
+    "currency": "€",
+    "notice": "Coperto € 2,50. Chiedi al personale per le intolleranze.",
+    "theme": { "accent": "#a4472b", "mode": "auto", "style": "classico" }
+  },
+  "hours": {
+    "note": "Cucina aperta fino a 30 minuti prima della chiusura",
+    "days": {
+      "mon": [],
+      "tue": [["12:00", "15:00"], ["19:00", "23:00"]],
+      "wed": [["12:00", "15:00"], ["19:00", "23:00"]],
+      "thu": [["12:00", "15:00"], ["19:00", "23:00"]],
+      "fri": [["12:00", "15:00"], ["19:00", "00:30"]],
+      "sat": [["12:00", "15:30"], ["19:00", "00:30"]],
+      "sun": [["12:00", "16:00"]]
+    }
+  },
+  "sections": [
+    {
+      "id": "cucina",
+      "name": "Cucina",
+      "categories": [
+        {
+          "id": "antipasti",
+          "name": "Antipasti",
+          "description": "",
+          "items": [
+            { "id": "a1", "name": "Tagliere del Borgo", "description": "Salumi del territorio, formaggi stagionati, mostarda e pane caldo", "prices": [{ "label": "per 1", "value": "14" }, { "label": "per 2", "value": "24" }], "allergens": [1, 7, 10], "tags": [], "available": true, "image": "" },
+            { "id": "a2", "name": "Vitello tonnato", "description": "Girello rosa, salsa tonnata alla vecchia maniera, capperi", "prices": [{ "label": "", "value": "13" }], "allergens": [3, 4, 10], "tags": ["consigliato"], "available": true, "image": "" },
+            { "id": "a3", "name": "Burrata e pomodorini", "description": "Burrata pugliese, pomodorini confit, basilico, olio EVO", "prices": [{ "label": "", "value": "11" }], "allergens": [7], "tags": ["vegetariano", "senza-glutine"], "available": true, "image": "" }
+          ]
+        },
+        {
+          "id": "primi",
+          "name": "Primi",
+          "description": "Pasta fresca fatta in casa ogni mattina",
+          "items": [
+            { "id": "p1", "name": "Risotto alla milanese", "description": "Carnaroli, zafferano in pistilli, midollo", "prices": [{ "label": "", "value": "15" }], "allergens": [7, 9], "tags": ["senza-glutine"], "available": true, "image": "" },
+            { "id": "p2", "name": "Tagliatelle al ragù", "description": "Ragù di manzo e maiale cotto sei ore", "prices": [{ "label": "", "value": "14" }], "allergens": [1, 3, 9], "tags": [], "available": true, "image": "" },
+            { "id": "p3", "name": "Spaghettone aglio, olio e peperoncino", "description": "Con pane croccante alle erbe", "prices": [{ "label": "", "value": "11" }], "allergens": [1], "tags": ["vegano", "piccante"], "available": true, "image": "" }
+          ]
+        },
+        {
+          "id": "secondi",
+          "name": "Secondi",
+          "description": "",
+          "items": [
+            { "id": "s1", "name": "Cotoletta alla milanese", "description": "Costoletta di vitello con l'osso, burro chiarificato, patate al forno", "prices": [{ "label": "", "value": "26" }], "allergens": [1, 3, 7], "tags": ["consigliato"], "available": true, "image": "" },
+            { "id": "s2", "name": "Filetto di branzino", "description": "Su crema di patate e finocchi, olive taggiasche", "prices": [{ "label": "", "value": "22" }], "allergens": [4, 7], "tags": ["surgelato"], "available": true, "image": "" },
+            { "id": "s3", "name": "Parmigiana di melanzane", "description": "Melanzane fritte, pomodoro, fiordilatte, parmigiano", "prices": [{ "label": "", "value": "15" }], "allergens": [7], "tags": ["vegetariano"], "available": false, "image": "" }
+          ]
+        },
+        {
+          "id": "dolci",
+          "name": "Dolci",
+          "description": "",
+          "items": [
+            { "id": "d1", "name": "Tiramisù della casa", "description": "Savoiardi, mascarpone, caffè espresso", "prices": [{ "label": "", "value": "7" }], "allergens": [1, 3, 7], "tags": [], "available": true, "image": "" },
+            { "id": "d2", "name": "Panna cotta ai frutti di bosco", "description": "", "prices": [{ "label": "", "value": "6" }], "allergens": [7], "tags": ["senza-glutine"], "available": true, "image": "" }
+          ]
+        },
+        {
+          "id": "pasticceria",
+          "name": "Pasticceria",
+          "description": "Dal nostro laboratorio, al banco fino ad esaurimento",
+          "items": [
+            { "id": "pa1", "name": "Croissant", "description": "Vuoto, crema, marmellata di albicocche o pistacchio", "prices": [{ "label": "", "value": "1.50" }], "allergens": [1, 3, 7, 8], "tags": [], "available": true, "image": "" },
+            { "id": "pa2", "name": "Cannolo siciliano", "description": "Ricotta di pecora, scorza d'arancia candita", "prices": [{ "label": "", "value": "3.50" }], "allergens": [1, 7], "tags": [], "available": true, "image": "" },
+            { "id": "pa3", "name": "Mignon assortiti", "description": "", "prices": [{ "label": "cad.", "value": "1.20" }, { "label": "vassoio da 12", "value": "13" }], "allergens": [1, 3, 7, 8], "tags": [], "available": true, "image": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bar",
+      "name": "Bar & Bevande",
+      "categories": [
+        {
+          "id": "caffetteria",
+          "name": "Caffetteria",
+          "description": "",
+          "items": [
+            { "id": "c1", "name": "Espresso", "description": "", "prices": [{ "label": "al banco", "value": "1.30" }, { "label": "al tavolo", "value": "1.80" }], "allergens": [], "tags": [], "available": true, "image": "" },
+            { "id": "c2", "name": "Cappuccino", "description": "Anche con latte di avena o soia", "prices": [{ "label": "", "value": "1.80" }], "allergens": [7], "tags": [], "available": true, "image": "" },
+            { "id": "c3", "name": "Marocchino", "description": "", "prices": [{ "label": "", "value": "1.80" }], "allergens": [7], "tags": [], "available": true, "image": "" }
+          ]
+        },
+        {
+          "id": "cocktail",
+          "name": "Cocktail",
+          "description": "",
+          "items": [
+            { "id": "k1", "name": "Negroni sbagliato", "description": "Bitter, vermouth rosso, spumante brut", "prices": [{ "label": "", "value": "9" }], "allergens": [12], "tags": ["consigliato"], "available": true, "image": "" },
+            { "id": "k2", "name": "Spritz", "description": "Aperol o Campari", "prices": [{ "label": "", "value": "7" }], "allergens": [12], "tags": [], "available": true, "image": "" },
+            { "id": "k3", "name": "Gin tonic", "description": "Chiedi la nostra selezione di gin", "prices": [{ "label": "da", "value": "10" }], "allergens": [], "tags": [], "available": true, "image": "" }
+          ]
+        },
+        {
+          "id": "vini",
+          "name": "Vini",
+          "description": "",
+          "items": [
+            { "id": "v1", "name": "Franciacorta Brut", "description": "Lombardia · Chardonnay, Pinot nero", "prices": [{ "label": "calice", "value": "8" }, { "label": "bottiglia", "value": "38" }], "allergens": [12], "tags": [], "available": true, "image": "" },
+            { "id": "v2", "name": "Barbera d'Asti", "description": "Piemonte", "prices": [{ "label": "calice", "value": "6" }, { "label": "bottiglia", "value": "26" }], "allergens": [12], "tags": [], "available": true, "image": "" }
+          ]
+        },
+        {
+          "id": "birre",
+          "name": "Birre",
+          "description": "",
+          "items": [
+            { "id": "b1", "name": "Bionda alla spina", "description": "", "prices": [{ "label": "piccola", "value": "4" }, { "label": "media", "value": "6" }], "allergens": [1], "tags": [], "available": true, "image": "" },
+            { "id": "b2", "name": "Birra artigianale IPA", "description": "Bottiglia 33 cl", "prices": [{ "label": "", "value": "6.50" }], "allergens": [1], "tags": ["novita"], "available": true, "image": "" }
+          ]
+        },
+        {
+          "id": "analcolici",
+          "name": "Analcolici",
+          "description": "",
+          "items": [
+            { "id": "n1", "name": "Acqua minerale", "description": "Naturale o frizzante, 75 cl", "prices": [{ "label": "", "value": "2.50" }], "allergens": [], "tags": [], "available": true, "image": "" },
+            { "id": "n2", "name": "Spremuta d'arancia", "description": "", "prices": [{ "label": "", "value": "4" }], "allergens": [], "tags": [], "available": true, "image": "" },
+            { "id": "n3", "name": "Bibite in lattina", "description": "Cola, aranciata, chinotto, tè", "prices": [{ "label": "", "value": "3" }], "allergens": [], "tags": [], "available": true, "image": "" }
+          ]
+        }
+      ]
+    }
+  ]
+}
